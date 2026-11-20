@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="bootstrap.min.css" rel="stylesheet">
+  <title>PAGE_TITLE</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="index.php">Lecturers</a>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link NAV_LECTURER" href="index.php">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NAV_DEPARTMENT" href="department.php">Departments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link NAV_COURSE" href="course.php">Courses</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div class="col-lg-6 m-auto my-4">
+    <form method="post" action="FORM_ACTION">
+      <div class="card">
+        <div class="card-header CARD_COLOR">
+          <h2 class="text-white text-center mb-0">FORM_TITLE</h2>
+        </div>
+        <div class="card-body">
+          FORM_FIELDS
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn btn-success" type="submit" name="SUBMIT_NAME">Submit</button>
+            <a class="btn btn-info text-white" href="CANCEL_LINK">Cancel</a>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <script src="bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
